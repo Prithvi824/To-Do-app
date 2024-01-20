@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+@font-face {
+    font-family:"Aloja";
+    src: url("/static/fonts/Aloja/Aloja-Light.otf") format("otf"),
+    url("/static/fonts/Aloja/Aloja-Light.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/static/images/hero.png);
+    background-size: cover;
+    position: relative;
+}
+
+.first {
+    position: absolute;
+    bottom: 7vh;
+    left: 30px;
+}
+
+.intro {
+    font-family: 'lovelo';
+    width: 350px;
+    font-size: 45px;
+    margin-bottom: -2px;
+    line-height: 0.9;
+    margin-bottom: 4px;
+}
+
+.popper {
+    font-family: 'Avenir';
+    background-color: #6ad9ea;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 12px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    transition: 0.5s;
+}
+
+.popper:hover {
+    cursor: pointer;
+    background-color: #6ad9ea;
+    box-shadow: 4px 4px 8px black;    
+}
+
+.form {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form_content {
+    height: 410px;
+    width: 330px;
+    background-color: #6ad9ea;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px;
+}
+
+.decor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head_img {
+    width: 225px;
+    filter: drop-shadow(2px 2px black);
+    margin-top: 38px;
+}
+
+.head_text {
+    font-family: 'Aloja';
+    color: #F9F9E0;
+    font-size: 14px;
+    filter: drop-shadow(1px 1px black);
+    padding-left: 125px;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.cat {
+    width: 230px;
+    margin-top: 25px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.user {
+    width: 219px;
+    font-family: 'Anonymous Pro', monospace;
+    height: 24px;
+    border: solid 2px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px;
+    margin-bottom: 14px;
+    font-size: larger;
+    padding-left: 8px;
+}
+
+.pass {
+    width: 219px;
+    font-family: 'Anonymous Pro', monospace;
+    height: 24px;
+    border: solid 2px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px;
+    margin-bottom: 14px;
+    font-size: larger;
+    padding-left: 8px;
+}
+
+.submit {
+    width: 175px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 31px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px;
+    background-color: #F9F9E0;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #e0e0d5;
+}
+
+.create {
+    cursor: pointer;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9F9E0;
+    margin-left: 142px;
+    margin-top: 12px;
+    font-weight: 600;
+    filter: drop-shadow(2px 2px 2px black);
+}

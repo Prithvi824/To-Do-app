@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.png" />
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/static/css/notes.css" type="text/css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main">
+      <div class="bar">
+        <img src="/static/images/logo_head.png" alt="" class="icon" />
+        <p class="name"></p>
+      </div>
+      <div class="content"></div>
+      <div class="add">+</div>
+      <div class="specific">
+        <div class="note">
+          <div class="specific_head" contenteditable="false"></div>
+          <i class="bx bx-x"></i>
+          <div class="specific_note" contenteditable="false"></div>
+          <div class="action_buttons">
+            <i class="bx bxs-trash"></i>
+            <i class="bx bxs-save"></i>
+            <i class="bx bx-edit"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      var user = "{{owner}}";
+      var info = {{ user_data | tojson | safe }};
+    </script>
+    <script src="/static/js/notes.js"></script>
+    <script src="/static/js/index.js"></script>
+  </body>
+</html>

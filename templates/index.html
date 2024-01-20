@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.png" />
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/static/css/index.css" type="text/css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="first">
+        <p class="intro">Ideas Take on In one Note</p>
+        <button class="popper" onclick="popup()">Log in</button>
+      </div>
+
+      <div class="form">
+        <div class="form_content">
+          <div class="decor">
+            <img src="/static/images/head_img.png" alt="" class="head_img" />
+            <p class="head_text">You know What Happenend!!</p>
+            <img src="/static/images/cat_peek.png" alt="" class="cat" />
+          </div>
+          <div class="details">
+            <input type="text" class="user" placeholder="Username" />
+            <input type="text" class="pass" placeholder="Password" />
+            <button class="submit" onclick="create_acc()">Submit</button>
+            <p class="create" onclick="create()">Create a Account</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/static/js/index.js"></script>
+  </body>
+</html>

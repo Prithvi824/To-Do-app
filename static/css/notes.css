@@ -1,0 +1,149 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/static/images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.bar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.bar img {
+    width: 70px;
+    margin: 20px 0px 0px 30px;
+}
+
+.bar p {
+    font-family: 'Avenir';
+    font-size: 2em;
+    padding: 35px 0px 0px 10px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    height: 330px;
+    width: 330px;
+    font-family: 'Avenir';
+    background: #F9F9E0;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px black;
+}
+
+.paper_card {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.paper_card:hover {
+    background: #eeeec1;
+}
+
+.clip {
+    width: 16px;
+    right: 12px;
+    position: absolute;
+    top: -18px;
+}
+
+.heading {
+    font-weight: 700;
+    padding-left: 14px;
+    padding-top: 8px;
+    font-size: 32px;
+}
+
+.para_content {
+    padding-left: 14px;
+    padding-top: 8px;
+}
+
+.add {
+    position:fixed;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    bottom: 20px;
+    right: 40px;
+    background-color: #F9F9E0;
+    border-radius: 60px;
+    font-family: 'Avenir';
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.specific {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.note {
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    background-color: #F9F9E0;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Avenir';
+}
+
+.specific_head {
+    font-size: xx-large;
+}
+
+.specific_note {
+    font-size: large;
+}
+
+.action_buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.action_buttons .bx {
+    font-size: xxx-large;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.bx.bxs-save {
+    display: none;
+}
+
+.specific_input {
+    font-size: large;
+}
+
+.bx.bx-x {
+    font-size: xxx-large;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
